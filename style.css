@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header.hero-section {
+  background-position: center;
+  background-image: url(hero-background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+header div.col-lg-12 {
+  padding: 20px 20px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h4 {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  padding: 15px 25px;
+  border-radius: 40px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: rgb(204, 45, 45);
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+  background-color: white;
+  margin: 75px auto;
+  max-width: 75px;
+}
